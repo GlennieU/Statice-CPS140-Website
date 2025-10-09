@@ -64,4 +64,18 @@ p {
   font-size: medium; 
   font-weight: bolder; 
   font-style: italic;
+} 
+
+.child { 
+border: solid 1px rgb(107, 19, 19); 
+padding: 1rem; 
+font: 1em sans-serif; 
+font-style: oblique; 
+margin: 1rem;
+} 
+
+.parent{ 
+  display: flex; 
+  flex-direction: row; 
+  flex-wrap: wrap;
 }
