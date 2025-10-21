@@ -1,20 +1,18 @@
-*{ 
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-:root { 
+:root {
   --primary-color: rgb(8, 8, 8);
-  --secondary-color: #464444; 
-  --text-color:  rgb(107, 19, 19); 
+  --secondary-color: #464444;
+  --text-color: rgb(107, 19, 19);
 }
-
 
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
   background-color: var(--primary-color);
-  color: var(--text-color)
-
+  color: var(--text-color);
 }
 
 nav {
@@ -25,10 +23,10 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px var(--primary-color);
-  background-color:  var(--secondary-color);
+  background-color: var(--secondary-color);
 }
 
-nav a{
+nav a {
   display: inline-block;
   min-width: 9rem;
   padding: 0.5rem;
@@ -36,11 +34,10 @@ nav a{
   border: solid 1px var(--text-color);
   text-align: center;
   text-decoration: none;
-  color: var(--text-color); 
-  
+  color: var(--text-color);
 }
 
-nav a[aria-current='page'] {
+nav a[aria-current="page"] {
   color: var(--primary-color);
   background-color: var(--text-color);
 }
@@ -48,44 +45,53 @@ nav a[aria-current='page'] {
 main {
   padding: 1rem;
 }
-nav a:hover { 
- background-color: var(--secondary-color);
-} 
+nav a:hover {
+  background-color: var(--secondary-color);
+}
 
 h1 {
   font-weight: bolder;
-  font-size: 1.5rem; 
-  font-style: italic; 
+  font-size: 1.5rem;
+  font-style: italic;
   text-align: center;
-  
-} 
+}
 
 p {
-  font-family: 'Times New Roman', Times, serif; 
-  font-size: medium; 
-  font-weight: bolder; 
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+  font-weight: bolder;
   font-style: italic;
-} 
+}
 
-.child { 
-border: solid 1px rgb(107, 19, 19); 
-padding: 1rem; 
-font: 1em sans-serif; 
-font-style: oblique; 
-margin: 1rem;
-} 
+.child {
+  border: solid 1px rgb(107, 19, 19);
+  padding: 1rem;
+  font: 1em sans-serif;
+  font-style: oblique;
+  margin: 1rem;
+}
 
-.parent{ 
-  display: flex; 
-  flex-direction: row; 
+.parent {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-} 
-.image{ 
-border: solid 1px rgb(107, 19, 19); 
-padding: 1rem;  
-margin-bottom: 5px;
-}  
- 
-.backgroundtext{ 
-  background: var(--text-color);
+}
+.image {
+  border: solid 1px rgb(107, 19, 19);
+  padding: 1rem;
+  margin-bottom: 5px;
+}
+
+.backgroundtext {
+  background: var(--primary-color);
+}
+
+.footer {
+  display: flex;
+  padding: 1rem;
+  background-color: red;
+  justify-content: space-between;
+  position: sticky;
+  width: 100%;
+  bottom: 0px;
 }
