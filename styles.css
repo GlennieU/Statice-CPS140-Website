@@ -76,7 +76,8 @@ p {
   flex-direction: row;
   flex-wrap: wrap; 
   align-items: center; 
-  width: 100%;
+  width: 100%; 
+  justify-content: space-evenly;
 }
 .image {
   border: solid 1px rgb(107, 19, 19);
