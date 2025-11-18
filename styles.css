@@ -94,7 +94,7 @@ p {
   padding: 1rem;
   background-color: red;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   width: 100%;
   bottom: 0px;
 } 
@@ -115,4 +115,13 @@ p {
   background-size: cover;        
   background-position: center;  
   background-repeat: no-repeat;  
+}
+form{ 
+ display: flex; 
+ flex-direction: row; 
+
+} 
+input{ 
+  font-family: "Times New Roman", Times, serif; 
+  font-style: italic;
 }
