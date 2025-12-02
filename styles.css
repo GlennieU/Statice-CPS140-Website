@@ -108,14 +108,7 @@ p {
 
 
 } 
-.page2 {
-  margin: 0;
-  font-family: sans-serif;
-  background-image: url("./Images/IMG_88.JPG");
-  background-size: cover;        
-  background-position: center;  
-  background-repeat: no-repeat;  
-}
+
 form{ 
  display: flex; 
  flex-direction: row; 
@@ -124,4 +117,5 @@ form{
 input{ 
   font-family: "Times New Roman", Times, serif; 
   font-style: italic;
-}
+} 
+ 
