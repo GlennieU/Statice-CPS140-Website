@@ -22,35 +22,40 @@
       <a href="./Pages/info.html">About</a>
     </nav> 
     <form name="MyForm">  
-      <button id="submitButton" onclick="formSubmission()"> 
-        Search
-      </button> 
-      Search 
+      <input type="search" id="search-input" placeholder="Search..." >
+      <div id="search-results"></div> 
+      <input type="submit" name="Search" onclick="formSubmit()"> 
     <label> 
-     
+  
    </form> 
-    
+    <script>  
+    function formSubmit() { 
+      const  search = document.getElementById("search-input").value;
+      const VAR= "the string" 
+      console.log(search) 
+      alert("search complete: " + search)
+    }
+    </script>
   
     <main>
-       
-      
-      
-            <h1>My website</h1>  
-             <div class="contentbox"> 
-              <h1 class="backgroundtext">Lynn Kid Apparel</h1>  
+      <h1>My website</h1>  
+      <div class="contentbox"> 
+       <h1 class="backgroundtext">Lynn Kid Apparel</h1>  
 
-              <div class="parent">  
-                <div class="child"><div class="image">image</div>Hoodies</div> 
-                <div class="child"><div class="image"> image</div>Shirts</div>
-                <div class="child"><div class="image">image</div>Pants</div>
-              </div> 
-            </div>  
-            <div class="footer ">
-              Contacts:  
-              <div class="footerlinks"> 
-                <a> LinkedIn</a> 
-              </div>
-            </div>
+       <div class="parent">  
+         <div class="child"><div class="">image</div>Hoodies</div> 
+         <div class="child"><div class="image"> image</div>Shirts</div>
+         <div class="child"><div class="image">image</div>Pants</div>
+       </div> 
+     </div>  
+     <div class="footer ">
+       Contacts:  
+       <div class="footerlinks"> 
+         <a> LinkedIn</a> 
+       </div>
+     </div>
+      
+             
              
              
 

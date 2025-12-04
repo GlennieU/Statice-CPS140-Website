@@ -68,7 +68,8 @@ p {
   padding: 1rem;
   font: 1em sans-serif;
   font-style: oblique;
-  margin: 1rem;
+  margin: 1rem; 
+  
 }
 
 .parent {
@@ -96,7 +97,9 @@ p {
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  bottom: 0px;
+  bottom: 0px; 
+  text-align: center; 
+  box-sizing: border-box;
 } 
 .backgroundimage {  
   position: relative; 
@@ -111,11 +114,17 @@ p {
 
 form{ 
  display: flex; 
- flex-direction: row; 
+ flex-direction: row;
+ 
 
 } 
 input{ 
   font-family: "Times New Roman", Times, serif; 
-  font-style: italic;
+  font-style: italic; 
+  width: 100px; 
+height: 40px; 
+padding: 0px; 
+
+ 
 } 
  
