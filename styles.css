@@ -58,7 +58,6 @@ main {
   margin-right: auto; 
   margin-top: 20px; 
   margin-bottom: 20px; 
-  max-width: 120px; 
   flex: 1;
 }
 nav a:hover {
@@ -89,7 +88,7 @@ p {
   margin: 0rem;  
     object-fit: cover; 
   display: block;
-  width: 250px; 
+  width: 60%; 
    background-color: var(--primary-color)
 }
 .child:hover { 
@@ -99,7 +98,7 @@ box-shadow: 0 4px 12px;
 
 } 
 .child img { 
-  width: 250%;
+  width: 100%;
   height: 600px; 
   object-fit: cover; 
   display: block; 
@@ -166,7 +165,7 @@ form{
  flex-direction: row; 
  justify-content: start; 
  margin-bottom: 2rem;
- 
+   
 
 } 
 input [type="submit"] { 

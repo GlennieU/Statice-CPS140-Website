@@ -1,64 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Apparel</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="Small clothing brand with big dreams" />
-    <!--
+
+<head>
+  <title>Apparel</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="Small clothing brand with big dreams" />
+  <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css"  />
-        <script type="module" src="script.js"></script> 
-        <link rel="icon"
-        href="/Images/favicon.ico">
-  </head>
-  <body> 
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+  <link rel="icon" href="/Images/favicon.ico">
+</head>
 
-    <nav>
-      <a href="/index.html" aria-current='page'>Home</a>
-      <a href="./Pages/page2.html">Accessories</a> 
-      <a href="Pages/page3.html">Shoes</a> 
-      <a href="./Pages/info.html">About</a>
-    </nav> 
-    <form name="MyForm">  
-      <input type="search" id="search-input" placeholder="Search..." >
-      <div id="search-results"></div> 
-      <input type="submit" name="Search" onclick="formSubmit()"> 
-    <label> 
-  
-   </form> 
-    <script>  
-    function formSubmit() { 
-      const  search = document.getElementById("search-input").value;
-      const VAR= "the string" 
-      console.log(search) 
-      alert("search complete: " + search)
-    }
+<body>
+
+  <nav>
+    <a href="/index.html" aria-current='page'>Home</a>
+    <a href="./Pages/page2.html">Accessories</a>
+    <a href="Pages/page3.html">Shoes</a>
+    <a href="./Pages/info.html">About</a>
+  </nav>
+
+
+  <main>
+    <form name="MyForm">
+      <input type="search" id="search-input" placeholder="Search...">
+      <div id="search-results"></div>
+      <input type="submit" name="Search" onclick="formSubmit()">
+    </form>
+    <script>
+      function formSubmit() {
+        const search = document.getElementById("search-input").value;
+        const VAR = "the string"
+        console.log(search)
+        alert("search complete: " + search)
+      }
     </script>
-  
-    <main>
-      
-      <div class="contentbox"> 
-       <h1 class="backgroundtext">Lynn Kid Apparel</h1>  
+    <div class="contentbox">
+      <h1 class="backgroundtext">Lynn Kid Apparel</h1>
 
-       <div class="parent">  
-         <div class="child"> <img src="./Images/BSTIMG.jpg" alt="Hoodies"></div> 
-         <div class="child"> <img src="./Images/MHMIMG.webp" alt="Graphic Tees" ></div> 
-         <div class="child"> <img src="./Images/VTBIMG.jpeg" alt="Pants" ></div>
-       </div> 
-     </div>  
-    
-     
-          </p>
-    </main> 
-    <div class="footer ">
-      Contacts:  
-      <div class="footerlinks"> 
-        <a> LinkedIn</a> 
+      <div class="parent">
+        <div class="child"> <img src="./Images/BSTIMG.jpg" alt="Hoodies"></div>
+        <div class="child"> <img src="./Images/MHMIMG.webp" alt="Graphic Tees"></div>
+        <div class="child"> <img src="./Images/VTBIMG.jpeg" alt="Pants"></div>
       </div>
-  </body>
+    </div>
+
+
+
+  </main>
+  <div class="footer ">
+    Contacts:
+    <div class="footerlinks">
+      <a> LinkedIn</a>
+    </div>
+  </div>
+</body>
+
 </html>
-
-
-
