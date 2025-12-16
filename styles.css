@@ -124,6 +124,7 @@ box-shadow: 0 4px 12px;
   margin: auto 0; 
   width: 100%; 
   height: 200px; 
+  max-width: 200;
 
 }
 
